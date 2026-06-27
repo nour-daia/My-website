@@ -1,13 +1,13 @@
 {
-  "name": "instail.tailwind",
+  "name": "nour-portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Nour Abu Daia — Full Stack Developer portfolio",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "tailwindcss -i styles.input.css -o tailwind.out.css --minify",
+    "watch:css": "tailwindcss -i styles.input.css -o tailwind.out.css --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nour Abu Daia",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.2.4"
