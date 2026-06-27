@@ -1,0 +1,10 @@
+Create folders
+
+npm init -y
+npm install -D tailwindcss 
+npx tailwindcss init
+content: ["./puplic1/**/*.{html,js}"],
+
+style.css
+npx tailwindcss -i ./styles.css -o ./puplic1/styles/tailwindcss.css --watch
+

@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nour Abu Daia | Full Stack Developer</title>
+    <link rel="stylesheet" href="./styles/tailwindcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet" href="./sty.css" >
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Clicker+Script&family=Playfair+Display+SC&family=Playfair+Display:ital,wght@0,400;1,400;1,500&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+    
+    </style>
+</head>
+<body class="">
+    <!---mian contener start-->
+<div class="man-container">
+<button type="button" class="nav-toggler" id="navToggler" aria-label="Open menu">
+<span class="nav-toggler-icon"></span>
+</button>
+<div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
+<!------Aside Start---->
+<div class="asid ml-[270px]">
+<div class="logo absolute top-[50px]  text-[30px]  capitalize" >
+    <a href="#" class="font-[700] relative text-[#302e4d]  py-[15px] px-[20px] text-[40px] tracking-[5px]"><span class="text-[40px] bgmaintext" style="font-family:'Clicker Script',cursive ;">N</span>our</a>
+</div>
+<ul class="nav list-none mt-[300px]">
+<il class="mb-5  block "><a href="#Home" class="active  text-base font-[600] block py-[5px] px-[15px] border-b-2 border-solid border-[#e8dfec] "><i class="fa fa-home nav-icon"></i><span data-i18n="nav.home">Home</span></a></il>
+<il  class="mb-5  block "><a href="#About" class="  text-base font-[600] block text-[#302e4d] py-[5px] px-[15px] border-b-2 border-solid border-[#e8dfec] "><i class="fa fa-user nav-icon"></i><span data-i18n="nav.about">About</span></a></il>
+<il  class="mb-5  block "><a href="#Services" class=" text-base font-[600] block text-[#302e4d] py-[5px] px-[15px] border-b-2 border-solid border-[#e8dfec] "><i class="fa fa-list nav-icon"></i><span data-i18n="nav.services">Services</span></a></il>
+<il  class="mb-5  block "><a href="#Certificates" class=" text-base font-[600] block text-[#302e4d] py-[5px] px-[15px] border-b-2 border-solid border-[#e8dfec] "><i class="fa fa-certificate nav-icon"></i><span data-i18n="nav.certificates">Certificates</span></a></il>
+<il  class="mb-5  block "><a href="#Contact" class=" text-base font-[600] block text-[#302e4d] py-[5px] px-[15px] border-b-2 border-solid border-[#e8dfec] "><i class="fa fa-comments nav-icon"></i><span data-i18n="nav.contact">Contact</span></a></il>
+
+
+</ul>
+</div>
+<!-----Aside Eend ----->
+<!-------Main content Start ---->
+<div class="main-content  Home w-full section  md:ml-[270px] " >
+<!------Home Section Start-->
+<div class="section active" id="Home">
+<section class="Home min-h-[100vh] flex justify-center   opacity-[1]  py-0 px-[30px]">
+<div class="contener  max-w-[1100px] w-full  m-auto">
+    <div class="row md:flex flex-wrap md:flex-nowrap ml-[-15px] mr-[-15px] relative  ">
+        <div class="home-info  w-full md:max-w-[60%] pl-[15px] pr-[15px]">
+            <h3 class="hello text-[28px] my-[15px] mx-0  font-bold"><span data-i18n="home.hello">Hello, my name is</span> <span class="name text-[30px] font-bold bgmaintext" style="font-family:'Clicker Script',cursive ;"> Nour Abu Daia</span></h3>
+            <h3 class="my-profassion font-bold text-[30px] my-[15px] mx-0 "><span data-i18n="home.imA">I m a</span> <span class="typing bgmaintext">Full Stack Developer</span></h3>
+            <p class="mb-[70px] text-[20px]  text-[#504e70]" data-i18n="home.bio">Dedicated Full Stack Developer with expertise in web and mobile development, WordPress, and workflow automation. I build dynamic applications with React, Next.js, and TypeScript, and deliver automation solutions using n8n for businesses in Gaza and Saudi Arabia.</p>
+         <a href="./images/images/Nour_Abudaia_CV.pdf" download="Nour_Abudaia_CV.pdf" class="btn text-base py-[12px] px-[35px] font-medium text-white rounded-[40px] bgmain md:inline-block" data-i18n="home.downloadCv">Download CV</a>
+        </div>
+        <div class="home-img pl-[15px] pr-[15px] md:max-w-[40%] w-full mt-[50px] text-center relative">
+            <img class=" h-[400px]  m-auto rounded-md  " src="./images/images/WhatsApp Image 2024-02-14 at 2.13.45 AM.jpeg" alt="">
+        </div>
+    </div>
+</div>
+</section>
+</div>
+<!------Home Section End-->
+<!------About Section Start-->
+<div class="about section" id="About">
+    <div class="contener  max-w-[1100px] w-full  m-auto pt-[60px] pb-[70px] ">
+        <div class="row ">
+            <div class="section-tittle mb-[60px] pl-[15px] pr-[15px] max-w-[100%]">
+                <h2 class="font-bold text-[40px] text-[#302e4d] relative" data-i18n="about.title">
+                About my
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-count max-[100%] pl-[15px] pr-[15px] ">
+              <div class="row">
+                <div class="about-text max-w-[100%] pl-[15px] pr-[15px] ">
+                    <h3 class="text-[28px] mb-[17px] font-bold text-[#302e4d] "><span data-i18n="about.heading">I m Nour Abu Daia and</span> <span style="color:var(--main-color);" data-i18n="about.role">Full Stack Developer</span></h3>
+                    <p class="text-base leading-6 text-[#504e70]" data-i18n="about.text">I am a dedicated Full Stack Developer with expertise in web and mobile application development, WordPress, and workflow automation. I have practical experience building dynamic websites and applications using React, Next.js, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, PHP, and APIs. I design and implement automated workflows using n8n, enabling businesses to streamline processes, integrate platforms, and automate content creation. I have successfully delivered multiple projects for companies in Gaza and Saudi Arabia, both remotely and on-site.</p>
+                    <p class="text-base leading-6 text-[#504e70] mt-4" data-i18n-html="about.languages"><strong>Languages:</strong> Arabic (Native) · English (Upper Intermediate)</p>
+                </div>
+              </div>
+              <div class="row flex flex-wrap md:flex-nowrap ml-[-15px] mr-[-15px]  ">
+                <div class="personal-inf w-[100%] md:w-[50%] pl-[15px] pr-[15px] mt-[40px]">
+<div class="row flex flex-wrap md:flex-nowrap ml-[-15px] mr-[-15px] justify-between ">
+    <div>
+        <div class="inf-item pl-[15px] pr-[15px] ">
+            <p class="font-semibold py-[10px] px-0 text-base text-[#302e4d] border-b-2 border-solid border-[#e8dfec]"><span data-i18n="about.birthday">Birthday :</span> <span class="font-normal text-[#504e70] info-value inline-block">22 Jun 2004</span></p>
+            </div>
+            <div class="inf-item pl-[15px] pr-[15px]">
+            <p class="font-semibold py-[10px] px-0 text-base text-[#302e4d] border-b-2 border-solid border-[#e8dfec]"><span data-i18n="about.age">Age :</span> <span class="font-normal text-[#504e70] info-value inline-block">21</span></p>
+            </div>
+            <div class="inf-item pl-[15px] pr-[15px]">
+                <p class="font-semibold py-[10px] px-0 text-base text-[#302e4d] border-b-2 border-solid border-[#e8dfec]"><span data-i18n="about.city">City :</span> <span class="font-normal text-[#504e70] info-value inline-block">Gaza Strip, Palestine</span></p>
+         </div>
+            <div class="inf-item pl-[15px] pr-[15px]">
+            <p class="font-semibold py-[10px] px-0 text-base text-[#302e4d] border-b-2 border-solid border-[#e8dfec]"><span data-i18n="about.email">Email :</span> <span class="font-normal text-[#504e70] info-value inline-block">nour2262004@gmail.com</span></p>
+            </div>
+    </div>
+<div>
+    <div class="inf-item pl-[15px] pr-[15px]">
+        <p class="font-semibold py-[10px] px-0 text-base text-[#302e4d] border-b-2 border-solid border-[#e8dfec]"><span data-i18n="about.degree">Degree :</span> <span class="font-normal text-[#504e70] info-value inline-block">AI Engineering (Bachelor's)</span></p>
+        </div>
+        <div class="inf-item pl-[15px] pr-[15px]">
+        <p class="font-semibold py-[10px] px-0 text-base text-[#302e4d] border-b-2 border-solid border-[#e8dfec]"><span data-i18n="about.phone">Phone :</span> <span class="font-normal text-[#504e70] info-value inline-block">+972 59-446-1389</span></p>
+        </div>
+        <div class="inf-item pl-[15px] pr-[15px]">
+            <p class="font-semibold py-[10px] px-0 text-base text-[#302e4d] border-b-2 border-solid border-[#e8dfec]"><span data-i18n="about.linkedin">LinkedIn:</span> <span class="font-normal text-[#504e70] info-value inline-block">nour-abudaia</span></p>
+            </div>
+                     
+                        <div class="inf-item pl-[15px] pr-[15px]">
+                        <p class="font-semibold py-[10px] px-0 text-base text-[#302e4d] border-b-2 border-solid border-[#e8dfec]"><span data-i18n="about.freelance">Freelance :</span> <span class="font-normal text-[#504e70] info-value inline-block" data-i18n="about.available">Available</span></p>
+             </div>
+</div>
+
+                    </div>
+                    <div class="row">
+                        <div class="bottons mt-[30px]">
+                            <a href="#Contact" data-section-index="4" class="btn mt-[10px] hire-me text-base py-[12px] px-[35px] font-medium text-white rounded-[40px] bgmain inline-block" data-i18n="about.hireMe">Hire Me</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- /////skils -->
+                <div class="skill pl-[15px] pr-[15px] mt-[40px]" >
+<div class="row  ">
+    <div class="skils-item pl-[15px] pr-[15px] mb-[30px]">
+<div class="skill-header">
+<h5 class="font-semibold text-base capitalize text-[#302e4d]">JavaScript / TypeScript</h5>
+<span class="skill-percent">90%</span>
+</div>
+<div class="progress">
+    <div class="progress-in" style="width:90%"></div>
+</div>
+    </div>
+
+
+    <div class="skils-item pl-[15px] pr-[15px] mb-[30px]">
+<div class="skill-header">
+        <h5 class="font-semibold text-base capitalize text-[#302e4d]">React / Next.js</h5>
+        <span class="skill-percent">88%</span>
+</div>
+        <div class="progress">
+            <div class="progress-in" style="width:88%"></div>
+        </div>
+            </div>
+
+
+
+            <div class="skils-item pl-[15px] pr-[15px] mb-[30px]">
+<div class="skill-header">
+                <h5 class="font-semibold text-base capitalize text-[#302e4d]">HTML / CSS / Tailwind</h5>
+                <span class="skill-percent">95%</span>
+</div>
+                <div class="progress">
+                    <div class="progress-in" style="width:95%"></div>
+                </div>
+                    </div>
+
+
+                    <div class="skils-item pl-[15px] pr-[15px] mb-[30px]">
+<div class="skill-header">
+                        <h5 class="font-semibold text-base capitalize text-[#302e4d]">PHP / REST APIs</h5>
+                        <span class="skill-percent">80%</span>
+</div>
+                        <div class="progress">
+                            <div class="progress-in" style="width:80%"></div>
+                        </div>
+                            </div>
+
+                    <div class="skils-item pl-[15px] pr-[15px] mb-[25px]">
+<div class="skill-header">
+                        <h5 class="font-semibold text-base capitalize text-[#302e4d]">SEO</h5>
+                        <span class="skill-percent">85%</span>
+</div>
+                        <div class="progress">
+                            <div class="progress-in" style="width:85%"></div>
+                        </div>
+                            </div>
+</div>
+                </div>
+              </div>
+<div class="row  flex flex-wrap md:flex-nowrap  ml-[-15px] mr-[-15px] ">
+    <div class="educcation  pl-[15px] pr-[15px] mt-[30px]">
+       <h3 class="title font-bold text-[24px] mb-[30px]" data-i18n="about.education">Education</h3>
+<div class="row">
+    <div class="timline-box pl-[15px] pr-[15px]">
+        <div class="timline shadow-dark w-full relative py-[30px] px-[15px] border-2 border-solid border-[#e8dfec] rounded-[10px] bg-[#fdf9ff]">
+    <!-- ============timline-item  -->
+    <div class="timline-item relative pl-[37px] pb-[50px]">
+        <div class="circle-dot absolute left-0 top-0 h-[15px] w-[15px] rounded-full bgmain"></div> 
+        <h3 class="timeline-date font-normal text-sm mb-[12px] text-[#504e70]">
+<i class="fa fa-calendar mr-[5px]"></i><span data-i18n="education.e1Date">2021 - 2022</span>
+        </h3>
+        <h4 class="timeline-title font-bold text-[18px] mb-[15px] capitalize text-[#302e4d]" data-i18n="education.e1Title">Diploma in Software Development & Databases</h4>
+        <p class="leading-[25px] text-base text-[#504e70]" data-i18n="education.e1Text">Gaza Training College (GTC) — GPA: 87.5%. Gained practical knowledge in web development, database design, and application development using modern technologies and industry best practices.</p>
+    </div>
+     <!-- ============timline-item  -->
+     <div class="timline-item relative pl-[37px] pb-[50px]">
+        <div class="circle-dot absolute left-0 top-0 h-[15px] w-[15px] rounded-full bgmain"></div> 
+        <h3 class="timeline-date font-normal text-sm mb-[12px] text-[#504e70]">
+<i class="fa fa-calendar mr-[5px]"></i><span data-i18n="education.e2Date">Present</span>
+        </h3>
+        <h4 class="timeline-title font-bold text-[18px] mb-[15px] capitalize text-[#302e4d]" data-i18n="education.e2Title">Bachelor's in Artificial Intelligence Engineering</h4>
+        <p class="timeline-text leading-[25px] text-base text-[#504e70]" data-i18n="education.e2Text">University College of Applied Sciences (UCAS) — Currently a third-year student. Developing foundations in AI, machine learning, data analysis, and intelligent systems while expanding expertise in software engineering and automation.</p>
+    </div>
+     <!-- ============timline-item  -->
+     <div class="timline-item relative pl-[37px] ">
+        <div class="circle-dot absolute left-0 top-0 h-[15px] w-[15px] rounded-full bgmain"></div> 
+        <h3 class="timeline-date font-normal text-sm mb-[12px] text-[#504e70]">
+<i class="fa fa-calendar mr-[5px]"></i><span data-i18n="education.e3Date">Completed</span>
+        </h3>
+        <h4 class="timeline-title font-bold text-[18px] mb-[15px] capitalize text-[#302e4d]" data-i18n="education.e3Title">Secondary School — Scientific Stream</h4>
+        <p class="timeline-text leading-[25px] text-base text-[#504e70]" data-i18n="education.e3Text">Graduated with 92.4% from the Scientific Stream, building a strong foundation in mathematics and sciences that supports my career in software development and AI.</p>
+    </div>
+        </div>
+    </div>
+</div>
+    </div>
+    <!-- ====================experince=================== -->
+    <div class="experience  pl-[15px] pr-[15px] mt-[30px]">
+        <h3 class="title font-bold text-[24px] mb-[30px]" data-i18n="about.experience">Experience</h3>
+        <div class="row ">
+            <div class="timline-box pl-[15px] pr-[15px]">
+                <div class="timline shadow-dark w-full relative py-[30px] px-[15px] border-2 border-solid border-[#e8dfec] rounded-[10px] bg-[#fdf9ff]">
+            <!-- ============timline-item  -->
+            <div class="timline-item relative pl-[37px] pb-[50px]">
+                <div class="circle-dot absolute left-0 top-0 h-[15px] w-[15px] rounded-full bgmain"></div> 
+                <h3 class="timeline-date font-normal text-sm mb-[12px] text-[#504e70]">
+        <i class="fa fa-calendar mr-[5px]"></i><span data-i18n="experience.x1Date">Saudi Arabia — Remote</span>
+                </h3>
+                <h4 class="timeline-title font-bold text-[18px] mb-[15px] capitalize text-[#302e4d]" data-i18n="experience.x1Title">Web Developer</h4>
+                <p class="leading-[25px] text-base text-[#504e70]" data-i18n="experience.x1Text">Developed advanced web applications using Next.js and TypeScript, including an internal employee profile system. Built an automated blogging system with n8n, integrated AI-powered chatbots, and customized company websites using WordPress.</p>
+            </div>
+             <!-- ============timline-item  -->
+             <div class="timline-item relative pl-[37px] pb-[50px]">
+                <div class="circle-dot absolute left-0 top-0 h-[15px] w-[15px] rounded-full bgmain"></div> 
+                <h3 class="timeline-date font-normal text-sm mb-[12px] text-[#504e70]">
+        <i class="fa fa-calendar mr-[5px]"></i><span data-i18n="experience.x2Date">Gaza Strip</span>
+                </h3>
+                <h4 class="timeline-title font-bold text-[18px] mb-[15px] capitalize text-[#302e4d]" data-i18n="experience.x2Title">Web Developer</h4>
+                <p class="timeline-text leading-[25px] text-base text-[#504e70]" data-i18n="experience.x2Text">Developed responsive websites using React, HTML, CSS, and JavaScript. Integrated APIs to fetch and display dynamic data, and built advanced user interfaces with a focus on performance across multiple projects.</p>
+            </div>
+             <!-- ============timline-item  -->
+             <div class="timline-item relative pl-[37px] ">
+                <div class="circle-dot absolute left-0 top-0 h-[15px] w-[15px] rounded-full bgmain"></div> 
+                <h3 class="timeline-date font-normal text-sm mb-[12px] text-[#504e70]">
+        <i class="fa fa-calendar mr-[5px]"></i><span data-i18n="experience.x3Date">Freelance</span>
+                </h3>
+                <h4 class="timeline-title font-bold text-[18px] mb-[15px] capitalize text-[#302e4d]" data-i18n="experience.x3Title">Full Stack Developer & Automation Specialist</h4>
+                <p class="timeline-text leading-[25px] text-base text-[#504e70]" data-i18n="experience.x3Text">Delivered projects for companies in Gaza and Saudi Arabia remotely and on-site. Specialized in workflow automation, API integrations, WordPress development, and AI chatbot implementation to improve business efficiency.</p>
+            </div>
+                </div>
+            </div>
+        </div>
+
+     </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!------About Section end-->
+<!-- ====service section star== -->
+<div class=" ">
+<section class="servivece    section  pb-[40px] " id="Services">
+    <div class="contener max-w-[1100px] w-full  m-auto pt-[60px] pb-[70px] ">
+        <div class="row">
+            <div class=" section-tittle pl-[15px] pr-[15px]">
+                <h2 class="font-bold text-[40px] text-[#302e4d] relative" data-i18n="services.title">Services</h2>
+            </div>
+        </div>
+ <div class="row mt-[50px] services-grid ml-[-15px] mr-[-15px]">
+    <div class="server-item pl-[15px] pr-[15px] mb-[30px] text-center leading-8">
+        <div class="server-item-inner pt-[5px] rounded-[10px] border-2 border-solid border-[#e8dfec]">
+           <div class="icon">
+            <i class="fa fa-mobile-alt text-4xl py-6 bgmaintext hover:bgmain hover:rounded-[100%] hover:w-[60px]"></i>
+           </div> 
+           <h4 class="font-bold text-[20px] text-[#302e4d]" data-i18n="services.s1Title">Full Stack Development</h4>
+           <p class="text-[#504e70] p-[15px]" data-i18n="services.s1Text">Building dynamic web applications with React, Next.js, TypeScript, and Tailwind CSS — from responsive frontends to robust backend integrations.</p>
+        </div>
+    </div>
+
+    <div class="server-item pl-[15px] pr-[15px] mb-[30px] text-center leading-8">
+        <div class="server-item-inner pt-[5px] rounded-[10px] border-2 border-solid border-[#e8dfec]">
+           <div class="icon">
+            <i class="fa fa-laptop-code text-4xl py-5 bgmaintext hover:bgmain hover:rounded-[100%] hover:w-[60px]"></i>
+           </div> 
+           <h4 class="font-bold text-[20px] text-[#302e4d]" data-i18n="services.s2Title">WordPress Development</h4>
+           <p class="text-[#504e70] p-[15px]" data-i18n="services.s2Text">Customizing and building company websites with WordPress, tailored to branding requirements and business needs with PHP and modern plugins.</p>
+        </div>
+    </div>
+
+    <div class="server-item pl-[15px] pr-[15px] mb-[30px] text-center leading-8">
+        <div class="server-item-inner pt-[5px] rounded-[10px] border-2 border-solid border-[#e8dfec]">
+           <div class="icon">
+            <i class="fa fa-code text-4xl py-5 bgmaintext hover:bgmain hover:rounded-[100%] hover:w-[60px]"></i>
+           </div> 
+           <h4 class="font-bold text-[20px] text-[#302e4d]" data-i18n="services.s3Title">API Integration</h4>
+           <p class="text-[#504e70] p-[15px]" data-i18n="services.s3Text">Seamless REST API integrations for efficient data management, connecting frontends with PHP backends, MySQL databases, and third-party services.</p>
+        </div>
+    </div>
+
+    <div class="server-item pl-[15px] pr-[15px] mb-[30px] text-center leading-8">
+        <div class="server-item-inner pt-[5px] rounded-[10px] border-2 border-solid border-[#e8dfec]">
+           <div class="icon">
+            <i class="fa fa-cogs text-4xl py-5 bgmaintext hover:bgmain hover:rounded-full hover:w-[60px]"></i>
+           </div> 
+           <h4 class="font-bold text-[20px] text-[#302e4d]" data-i18n="services.s4Title">Workflow Automation</h4>
+           <p class="text-[#504e70] p-[15px]" data-i18n="services.s4Text">Designing automated workflows with n8n — blog generation, content scheduling, multi-platform integration, and process optimization for businesses.</p>
+        </div>
+    </div>
+
+    <div class="server-item pl-[15px] pr-[15px] mb-[30px] text-center leading-8">
+        <div class="server-item-inner pt-[5px] rounded-[10px] border-2 border-solid border-[#e8dfec]">
+           <div class="icon">
+            <i class="fa fa-robot text-4xl py-5 bgmaintext hover:bgmain hover:rounded-[100%] hover:w-[60px]"></i>
+           </div> 
+           <h4 class="font-bold text-[20px] text-[#302e4d]" data-i18n="services.s5Title">AI Chatbots</h4>
+           <p class="text-[#504e70] p-[15px]" data-i18n="services.s5Text">Developing and integrating AI-powered chatbots to improve user interaction, automate customer support, and enhance business communication.</p>
+        </div>
+    </div>
+
+    <div class="server-item pl-[15px] pr-[15px] mb-[30px] text-center leading-8">
+        <div class="server-item-inner pt-[5px] rounded-[10px] border-2 border-solid border-[#e8dfec]">
+           <div class="icon">
+            <i class="fa fa-search text-4xl py-5 bgmaintext hover:bgmain hover:rounded-[100%] hover:w-[60px]"></i>
+           </div> 
+           <h4 class="font-bold text-[20px] text-[#302e4d]" data-i18n="services.s6Title">SEO Optimization</h4>
+           <p class="text-[#504e70] p-[15px]" data-i18n="services.s6Text">Improving website visibility on search engines through on-page optimization, technical SEO, performance tuning, and content structure for better rankings.</p>
+        </div>
+    </div>
+ </div>
+
+</section>
+</div>
+<!-- ====service section end== -->
+<!-- ======certificates section start====== -->
+<div class="">
+<section class="certificates section pb-[40px]" id="Certificates">
+    <div class="contener max-w-[1100px] w-full m-auto pt-[60px] pb-[70px]">
+        <div class="row">
+            <div class="section-tittle pl-[15px] pr-[15px] mb-[20px]">
+                <h2 class="font-bold text-[40px] text-[#302e4d] relative" data-i18n="certificates.title">Certificates</h2>
+            </div>
+        </div>
+                <p class="cert-subtitle pl-[15px] pr-[15px] mb-[40px]" data-i18n="certificates.subtitle">Professional certifications and achievements in web development, AI, automation, and WordPress.</p>
+        <div class="cert-grid">
+            
+            <article class="cert-item">
+                <div class="cert-item-inner shadow-dark">
+                    <button type="button" class="cert-img-wrap" data-cert-src="./images/images/Screenshot 2026-06-27 211314.png" data-cert-alt="Programming and Database Diploma - UNRWA Gaza Training Centre" aria-label="View Programming and Database diploma">
+                        <img src="./images/images/Screenshot 2026-06-27 211314.png" alt="Programming and Database Diploma - UNRWA Gaza Training Centre">
+                        <span class="cert-zoom"><i class="fa fa-search-plus"></i> <span data-i18n="certificates.view">View</span></span>
+                    </button>
+                    <div class="cert-info">
+                        <h4 data-i18n="certificates.c1Title">Diploma — Programming & Database</h4>
+                        <p class="cert-issuer">UNRWA · Gaza Training Centre (GTC)</p>
+                        <p class="cert-date">October 2025</p>
+                    </div>
+                </div>
+            </article>
+            <article class="cert-item">
+                <div class="cert-item-inner shadow-dark">
+                    <button type="button" class="cert-img-wrap" data-cert-src="./images/images/fullstak (1).jpeg" data-cert-alt="Full-stack Web Development Certificate - Microsoft Student Club" aria-label="View Full-stack Web Development certificate">
+                        <img src="./images/images/fullstak (1).jpeg" alt="Full-stack Web Development Certificate - Microsoft Student Club">
+                        <span class="cert-zoom"><i class="fa fa-search-plus"></i> <span data-i18n="certificates.view">View</span></span>
+                    </button>
+                    <div class="cert-info">
+                        <h4 data-i18n="certificates.c2Title">Full-stack Web Development</h4>
+                        <p class="cert-issuer">Microsoft Student Club (MSC)</p>
+                        <p class="cert-date">April 2024</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cert-item">
+                <div class="cert-item-inner shadow-dark">
+                    <button type="button" class="cert-img-wrap" data-cert-src="./images/images/top10.jpeg" data-cert-alt="Top Achiever Front-end Web Development - Microsoft Student Club" aria-label="View Top Achiever certificate">
+                        <img src="./images/images/top10.jpeg" alt="Top Achiever Front-end Web Development - Microsoft Student Club">
+                        <span class="cert-zoom"><i class="fa fa-search-plus"></i> <span data-i18n="certificates.view">View</span></span>
+                    </button>
+                    <div class="cert-info">
+                        <h4 data-i18n="certificates.c3Title">Top Achiever — Front-end Development</h4>
+                        <p class="cert-issuer">Microsoft Student Club (MSC)</p>
+                        <p class="cert-date">February 2024</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cert-item">
+                <div class="cert-item-inner shadow-dark">
+                    <button type="button" class="cert-img-wrap" data-cert-src="./images/images/Screenshot 2026-06-27 211409.png" data-cert-alt="WordPress Development Training - Tamkeen Academy" aria-label="View WordPress certificate">
+                        <img src="./images/images/Screenshot 2026-06-27 211409.png" alt="WordPress Development Training - Tamkeen Academy">
+                        <span class="cert-zoom"><i class="fa fa-search-plus"></i> <span data-i18n="certificates.view">View</span></span>
+                    </button>
+                    <div class="cert-info">
+                        <h4 data-i18n="certificates.c4Title">WordPress Development & Remote Work</h4>
+                        <p class="cert-issuer">Tamkeen Academy · WorkNet</p>
+                        <p class="cert-date">110 Hours · 2024</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cert-item">
+                <div class="cert-item-inner shadow-dark">
+                    <button type="button" class="cert-img-wrap" data-cert-src="./images/images/Screenshot 2026-06-27 211345.png" data-cert-alt="Prompt Engineering and AI Workflow Automation - MakeFlow AI Academy" aria-label="View Prompt Engineering certificate">
+                        <img src="./images/images/Screenshot 2026-06-27 211345.png" alt="Prompt Engineering and AI Workflow Automation - MakeFlow AI Academy">
+                        <span class="cert-zoom"><i class="fa fa-search-plus"></i> <span data-i18n="certificates.view">View</span></span>
+                    </button>
+                    <div class="cert-info">
+                        <h4 data-i18n="certificates.c5Title">Prompt Engineering & AI Workflow Automation</h4>
+                        <p class="cert-issuer">MakeFlow AI Academy</p>
+                        <p class="cert-date">20 Hours · May 2026</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cert-item">
+                <div class="cert-item-inner shadow-dark">
+                    <button type="button" class="cert-img-wrap" data-cert-src="./images/images/Screenshot 2026-06-27 211201.png" data-cert-alt="Machine Learning with Python - IBM Coursera" aria-label="View Machine Learning certificate">
+                        <img src="./images/images/Screenshot 2026-06-27 211201.png" alt="Machine Learning with Python - IBM Coursera">
+                        <span class="cert-zoom"><i class="fa fa-search-plus"></i> <span data-i18n="certificates.view">View</span></span>
+                    </button>
+                    <div class="cert-info">
+                        <h4 data-i18n="certificates.c6Title">Machine Learning with Python</h4>
+                        <p class="cert-issuer">IBM · Coursera</p>
+                        <p class="cert-date">January 2026</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cert-item">
+                <div class="cert-item-inner shadow-dark">
+                    <button type="button" class="cert-img-wrap" data-cert-src="./images/images/Screenshot 2026-06-27 211213.png" data-cert-alt="Deep Learning and Neural Networks with Keras - IBM Coursera" aria-label="View Deep Learning certificate">
+                        <img src="./images/images/Screenshot 2026-06-27 211213.png" alt="Deep Learning and Neural Networks with Keras - IBM Coursera">
+                        <span class="cert-zoom"><i class="fa fa-search-plus"></i> <span data-i18n="certificates.view">View</span></span>
+                    </button>
+                    <div class="cert-info">
+                        <h4 data-i18n="certificates.c7Title">Deep Learning & Neural Networks with Keras</h4>
+                        <p class="cert-issuer">IBM · Coursera</p>
+                        <p class="cert-date">February 2024</p>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+</div>
+<!-- ======certificates section end====== -->
+
+<!-- ======contact section start====== -->
+<div class=" section" id="Contact">
+<section class="contact     min-h-[100vh]   contener max-w-[1100px] w-full  m-auto pt-[60px] pb-[70px] py-5 " >
+<div class="    w-full   ">
+    <div class="row">
+        <div class=" section-tittle pl-[15px] pr-[15px]">
+            <h2 class="font-bold text-[40px] text-[#302e4d] relative" data-i18n="contact.title">Contact Me</h2>
+        </div>
+    </div>
+    <div class=" my-11 m-auto">
+        <h3 class="text-center mb-5 bgmaintext font-bold text-[25px]" data-i18n="contact.question">
+            Have you Any Question ?
+        </h3>
+        <h4 class="text-center text-[#302e4d] font-bold text-[15px]  mb-[60px]" data-i18n="contact.subtitle">
+            I M AT YOUR SERVICES
+        </h4>
+    </div>
+    <div class="row flex flex-wrap md:flex-nowrap mx-auto">
+        <!-- contact info item start -->
+        <div class="conctactinfoitem w-full  mb-5  text-center md:pl-[15px] md:pr-[15px]">
+            <div class="icon inline-block">
+                <i class="fa fa-phone text-[25px] bgmaintext"></i>
+            </div>
+            <h4 class="text-[18px] font-bold capitalize mt-[15px] mb-[5px]" data-i18n="contact.phone">Call Us On</h4>
+            <p><a href="https://wa.me/972594461389" target="_blank" rel="noopener noreferrer" class="contact-link">+972 59-446-1389</a></p>
+        </div>
+        <!-- ============ -->
+        <div class="conctactinfoitem w-full mb-5   text-center md:pl-[15px] md:pr-[15px]">
+            <div class="icon inline-block">
+                <i class="fa fa-map-marker-alt text-[25px] bgmaintext"></i>
+            </div>
+            <h4 class="text-[18px] font-bold capitalize mt-[15px] mb-[5px]" data-i18n="contact.location">Location</h4>
+            <p>Gaza Strip, Palestine</p>
+        </div>
+        <!-- ========================= -->
+        <div class="conctactinfoitem w-full  mb-5   text-center md:pl-[15px] md:pr-[15px]">
+            <div class="icon inline-block">
+                <i class="fa fa-envelope  text-[25px] bgmaintext"></i>
+            </div>
+            <h4 class="text-[18px] font-bold capitalize mt-[15px] mb-[5px]" data-i18n="contact.email">Email</h4>
+            <p><a href="mailto:nour2262004@gmail.com" class="contact-link">nour2262004@gmail.com</a></p>
+        </div>
+        <!-- ======================== -->
+        <div class="conctactinfoitem w-full  mb-5  text-center md:pl-[15px] md:pr-[15px]">
+            <div class="icon inline-block">
+                <i class="fa fa-globe-europe text-[25px] bgmaintext "></i>
+            </div>
+            <h4 class="text-[18px] font-bold capitalize mt-[15px] mb-[5px]" data-i18n="contact.linkedin">LinkedIn</h4>
+            <p class=" ">linkedin.com/in/nour-abudaia</p>
+        </div>
+        <!-- =================== -->
+        <!-- contact info item end -->
+    </div>
+    <div class=" my-11 m-auto">
+        <h3 class="text-center mb-5 bgmaintext font-bold text-[25px]" data-i18n="contact.formTitle">
+            SEND ME AN EMAIL
+        </h3>
+        <h4 class="text-center text-[#302e4d] font-bold text-[15px]  mb-[60px]" data-i18n="contact.formSubtitle">
+            I M VERY RESPOSIVE TO MESSAGES
+        </h4>
+    </div>
+    <!-- ====CONtact form===== -->
+    <div class="row">
+    <div class="contact-from pl-[15px] pr-[15px]">
+        <form id="contactForm" novalidate>
+        <div class="row flex flex-wrap md:flex-nowrap ">
+            <div class="from-item mb-[30px] w-[50%] pl-[15px] pr-[15px]">
+<div class="form-group">
+    <input type="text" name="name" id="contactName" required class="form-control w-[100%] h-[50px] rounded-[25px] bg-bg-black-100 border-solid border-1 px-[25px] py-[10px] text-base text-bg-black-100" data-i18n-placeholder="contact.name" placeholder="Name">
+</div>
+            </div>
+            <div class="from-item mb-[30px] w-[50%] pl-[15px] pr-[15px]">
+                <div class="form-group">
+                    <input type="email" name="email" id="contactEmail" required class="form-control w-[100%] h-[50px] rounded-[25px] bg-bg-black-100 border-solid border-1 px-[25px] py-[10px] text-base text-bg-black-100" data-i18n-placeholder="contact.emailPh" placeholder="Email">
+                </div>
+            </div>
+        </div>
+<div class="row">
+    <div class="from-item mb-[30px] w-[100%] pl-[15px] pr-[15px]">
+        <div class="form-group">
+            <input type="text" name="subject" id="contactSubject" required class="form-control w-[100%] h-[50px] rounded-[25px] bg-bg-black-100 border-solid border-1 px-[25px] py-[10px] text-base text-bg-black-100" data-i18n-placeholder="contact.subject" placeholder="Subject">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="from-item mb-[30px] w-[100%] pl-[15px] pr-[15px]">
+        <div class="form-group">
+        <textarea name="message" id="contactMessage" required class="form-control w-[100%] h-[140px] rounded-[25px] bg-bg-black-100 border-solid border-1 px-[25px] py-[10px] text-base text-bg-black-100" data-i18n-placeholder="contact.message" placeholder="Message"></textarea>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="from-item mb-[15px] w-[100%] pl-[15px] pr-[15px]">
+       <button type="submit" id="contactSubmitBtn" class="btn text-base py-[12px] px-[35px] font-medium text-white rounded-[40px] bgmain md:inline-block" data-i18n="contact.send">Send Message</button>
+    </div>
+</div>
+<div class="row">
+    <div class="from-item w-[100%] pl-[15px] pr-[15px]">
+        <p id="contactFormStatus" class="contact-form-status" role="status" aria-live="polite"></p>
+    </div>
+</div>
+        </form>
+    </div>
+    </div>
+    
+</div>
+</section>
+</div>
+
+
+<!-- ======contact section end====== -->
+
+</div>
+<!-------Main content End ---->
+</div>
+    <!---mian contener End-->
+ 
+<!-- //////////// -->
+<button type="button" class="settings-fab" id="settingsFab" aria-label="Open settings">
+    <i class="fas fa-cog"></i>
+</button>
+<div class="settings-backdrop" id="settingsBackdrop" aria-hidden="true"></div>
+<div class="style-swtcher" id="styleSwitcher" aria-hidden="true">
+    <button type="button" class="settings-close" id="settingsClose" data-i18n-aria="theme.close" aria-label="Close settings">&times;</button>
+
+    <h4 data-i18n="theme.title">Theme Colors</h4>
+    <div class="colors">
+       <span class="bg-[#ec1839]" onclick="change(this)"></span> 
+       <span class="bg-[#fa5b0f] ornge" onclick="change(this)"></span> 
+       <span class="bg-[#37b182] green" onclick="change(this)"></span> 
+       <span class="bg-[#1854b4] bule" onclick="change(this)"></span> 
+       <span class="bg-[#f021b2] pink" onclick="change(this)"></span> 
+    </div>
+
+    <div class="settings-block">
+        <h4 data-i18n="theme.language">Language</h4>
+        <div class="lang-switcher settings-lang">
+            <button type="button" class="lang-btn active" data-lang="en" title="English"><i class="fas fa-globe"></i> EN</button>
+            <button type="button" class="lang-btn" data-lang="ar" title="العربية"><i class="fas fa-globe"></i> AR</button>
+        </div>
+    </div>
+
+    <div class="settings-block">
+        <h4 data-i18n="theme.mode">Mode</h4>
+        <button type="button" class="day-night" id="darkModeToggle" data-i18n-aria="theme.toggleDark" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"  referrerpolicy="no-referrer"></script>
+<div class="cert-lightbox" id="certLightbox" aria-hidden="true">
+    <button type="button" class="cert-lightbox-close" data-i18n-aria="certificates.closeLightbox" aria-label="Close certificate preview">&times;</button>
+    <img src="" alt="" id="certLightboxImg">
+</div>
+<script src="./i18n.js"></script>
+<script src="./script.js"></script>
+<script src="./js.js"></script>
+</body>
+</html>
